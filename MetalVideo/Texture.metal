@@ -3,7 +3,7 @@
 //  RotateDemo
 //
 //  Created by cfq on 2016/11/1.
-//  Copyright © 2016年 Dlodlo. All rights reserved.
+//  Copyright © 2016年 OrangesChen. All rights reserved.
 //
 
 // 添加纹理

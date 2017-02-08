@@ -3,7 +3,7 @@
 //  MetalVideo
 //
 //  Created by cfq on 2016/11/22.
-//  Copyright © 2016年 Dlodlo. All rights reserved.
+//  Copyright © 2016年 OrangesChen. All rights reserved.
 //
 
 #import "AppDelegate.h"

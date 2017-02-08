@@ -3,7 +3,7 @@
 //  MetalVertex
 //
 //  Created by cfq on 2016/10/24.
-//  Copyright © 2016年 Dlodlo. All rights reserved.
+//  Copyright © 2016年 OrangesChen. All rights reserved.
 //
 
 #import "APPLViewController.h"
