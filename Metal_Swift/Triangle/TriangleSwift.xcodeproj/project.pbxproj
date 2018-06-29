@@ -13,8 +13,6 @@
 		E25DEB521DC09B9900F8B096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25DEB501DC09B9900F8B096 /* Main.storyboard */; };
 		E25DEB541DC09B9900F8B096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25DEB531DC09B9900F8B096 /* Assets.xcassets */; };
 		E25DEB571DC09B9900F8B096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25DEB551DC09B9900F8B096 /* LaunchScreen.storyboard */; };
-		E25DEB621DC09B9900F8B096 /* TriangleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DEB611DC09B9900F8B096 /* TriangleSwiftTests.swift */; };
-		E25DEB6D1DC09B9900F8B096 /* TriangleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DEB6C1DC09B9900F8B096 /* TriangleSwiftUITests.swift */; };
 		E25DEB7B1DC0A0DD00F8B096 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = E25DEB7A1DC0A0DD00F8B096 /* Shader.metal */; };
 		E28220901DE7D427000AAFA3 /* LoadTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282208F1DE7D427000AAFA3 /* LoadTexture.swift */; };
 		E28220921DE7E293000AAFA3 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = E28220911DE7E293000AAFA3 /* lena.png */; };
@@ -48,11 +46,7 @@
 		E25DEB561DC09B9900F8B096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25DEB581DC09B9900F8B096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25DEB5D1DC09B9900F8B096 /* TriangleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25DEB611DC09B9900F8B096 /* TriangleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleSwiftTests.swift; sourceTree = "<group>"; };
-		E25DEB631DC09B9900F8B096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25DEB681DC09B9900F8B096 /* TriangleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25DEB6C1DC09B9900F8B096 /* TriangleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleSwiftUITests.swift; sourceTree = "<group>"; };
-		E25DEB6E1DC09B9900F8B096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25DEB7A1DC0A0DD00F8B096 /* Shader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		E282208F1DE7D427000AAFA3 /* LoadTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadTexture.swift; sourceTree = "<group>"; };
 		E28220911DE7E293000AAFA3 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lena.png; path = ../lena.png; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				E25DEB4B1DC09B9900F8B096 /* TriangleSwift */,
-				E25DEB601DC09B9900F8B096 /* TriangleSwiftTests */,
-				E25DEB6B1DC09B9900F8B096 /* TriangleSwiftUITests */,
 				E25DEB4A1DC09B9900F8B096 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				E25DEB581DC09B9900F8B096 /* Info.plist */,
 			);
 			path = TriangleSwift;
-			sourceTree = "<group>";
-		};
-		E25DEB601DC09B9900F8B096 /* TriangleSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				E25DEB611DC09B9900F8B096 /* TriangleSwiftTests.swift */,
-				E25DEB631DC09B9900F8B096 /* Info.plist */,
-			);
-			path = TriangleSwiftTests;
-			sourceTree = "<group>";
-		};
-		E25DEB6B1DC09B9900F8B096 /* TriangleSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E25DEB6C1DC09B9900F8B096 /* TriangleSwiftUITests.swift */,
-				E25DEB6E1DC09B9900F8B096 /* Info.plist */,
-			);
-			path = TriangleSwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25DEB621DC09B9900F8B096 /* TriangleSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25DEB6D1DC09B9900F8B096 /* TriangleSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

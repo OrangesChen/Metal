@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TriangleSwift/TriangleSwift.xcodeproj">
+      location = "group:Triangle/TriangleSwift.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:RotateDemo/RotateDemo.xcodeproj">
+      location = "group:Rotate/RotateDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:PerformanceShaders/PerformanceShaders.xcodeproj">
