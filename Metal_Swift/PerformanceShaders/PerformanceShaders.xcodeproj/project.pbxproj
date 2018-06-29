@@ -17,23 +17,6 @@
 		E28220961DE829AB000AAFA3 /* mandrill.png in Resources */ = {isa = PBXBuildFile; fileRef = E28220951DE829AB000AAFA3 /* mandrill.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E27384AD1DE298E200663037 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E27384901DE298E100663037 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E27384971DE298E100663037;
-			remoteInfo = PerformanceShaders;
-		};
-		E27384B81DE298E200663037 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E27384901DE298E100663037 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E27384971DE298E100663037;
-			remoteInfo = PerformanceShaders;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E27384981DE298E100663037 /* PerformanceShaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceShaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E273849B1DE298E100663037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +25,6 @@
 		E27384A21DE298E100663037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27384A51DE298E100663037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27384A71DE298E100663037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E27384AC1DE298E200663037 /* PerformanceShadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceShadersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E27384B71DE298E200663037 /* PerformanceShadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceShadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27384C91DE2992E00663037 /* AnimalImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalImage.png; sourceTree = "<group>"; };
 		E27384CB1DE2A89200663037 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E28220951DE829AB000AAFA3 /* mandrill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mandrill.png; sourceTree = "<group>"; };
@@ -51,20 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E27384951DE298E100663037 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E27384A91DE298E200663037 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E27384B41DE298E200663037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				E27384981DE298E100663037 /* PerformanceShaders.app */,
-				E27384AC1DE298E200663037 /* PerformanceShadersTests.xctest */,
-				E27384B71DE298E200663037 /* PerformanceShadersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,42 +93,6 @@
 			productReference = E27384981DE298E100663037 /* PerformanceShaders.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E27384AB1DE298E200663037 /* PerformanceShadersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E27384C31DE298E200663037 /* Build configuration list for PBXNativeTarget "PerformanceShadersTests" */;
-			buildPhases = (
-				E27384A81DE298E200663037 /* Sources */,
-				E27384A91DE298E200663037 /* Frameworks */,
-				E27384AA1DE298E200663037 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E27384AE1DE298E200663037 /* PBXTargetDependency */,
-			);
-			name = PerformanceShadersTests;
-			productName = PerformanceShadersTests;
-			productReference = E27384AC1DE298E200663037 /* PerformanceShadersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E27384B61DE298E200663037 /* PerformanceShadersUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E27384C61DE298E200663037 /* Build configuration list for PBXNativeTarget "PerformanceShadersUITests" */;
-			buildPhases = (
-				E27384B31DE298E200663037 /* Sources */,
-				E27384B41DE298E200663037 /* Frameworks */,
-				E27384B51DE298E200663037 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E27384B91DE298E200663037 /* PBXTargetDependency */,
-			);
-			name = PerformanceShadersUITests;
-			productName = PerformanceShadersUITests;
-			productReference = E27384B71DE298E200663037 /* PerformanceShadersUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,16 +107,6 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = N5R7K6B3AF;
 						ProvisioningStyle = Automatic;
-					};
-					E27384AB1DE298E200663037 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E27384971DE298E100663037;
-					};
-					E27384B61DE298E200663037 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E27384971DE298E100663037;
 					};
 				};
 			};
@@ -205,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				E27384971DE298E100663037 /* PerformanceShaders */,
-				E27384AB1DE298E200663037 /* PerformanceShadersTests */,
-				E27384B61DE298E200663037 /* PerformanceShadersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,20 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E27384AA1DE298E200663037 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E27384B51DE298E200663037 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,34 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E27384A81DE298E200663037 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E27384B31DE298E200663037 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E27384AE1DE298E200663037 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E27384971DE298E100663037 /* PerformanceShaders */;
-			targetProxy = E27384AD1DE298E200663037 /* PBXContainerItemProxy */;
-		};
-		E27384B91DE298E200663037 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E27384971DE298E100663037 /* PerformanceShaders */;
-			targetProxy = E27384B81DE298E200663037 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E273849F1DE298E100663037 /* Main.storyboard */ = {
@@ -419,60 +295,6 @@
 			};
 			name = Release;
 		};
-		E27384C41DE298E200663037 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PerformanceShadersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dlodlo.PerformanceShadersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerformanceShaders.app/PerformanceShaders";
-			};
-			name = Debug;
-		};
-		E27384C51DE298E200663037 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PerformanceShadersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dlodlo.PerformanceShadersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerformanceShaders.app/PerformanceShaders";
-			};
-			name = Release;
-		};
-		E27384C71DE298E200663037 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = PerformanceShadersUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dlodlo.PerformanceShadersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = PerformanceShaders;
-			};
-			name = Debug;
-		};
-		E27384C81DE298E200663037 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = PerformanceShadersUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dlodlo.PerformanceShadersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = PerformanceShaders;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,24 +312,6 @@
 			buildConfigurations = (
 				E27384C11DE298E200663037 /* Debug */,
 				E27384C21DE298E200663037 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E27384C31DE298E200663037 /* Build configuration list for PBXNativeTarget "PerformanceShadersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E27384C41DE298E200663037 /* Debug */,
-				E27384C51DE298E200663037 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E27384C61DE298E200663037 /* Build configuration list for PBXNativeTarget "PerformanceShadersUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E27384C71DE298E200663037 /* Debug */,
-				E27384C81DE298E200663037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
